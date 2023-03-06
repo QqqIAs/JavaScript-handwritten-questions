@@ -1,4 +1,4 @@
-![avatar](/image.png)
+!(/image.png)
 上图中，每个对象的每个属性都会对应一个dep对象，同一个对象的多个属性的dep对象会被放在一个map对象中，多个对象的map对象会被存放到一个objMap对象(WeakMap)中。
 如果我们想拿到obj对象的name属性依赖，只需要：
 const dep = objMap.get(obj).get(name)
