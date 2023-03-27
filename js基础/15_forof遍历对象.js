@@ -1,4 +1,4 @@
-//1.类数组的话用Array。from
+// //1.类数组的话用Array。from
 const obj = {
   0: '133',
   1: '32',
