@@ -12,13 +12,14 @@ function deepCopy(obj) {
   return newobj
 }
 
-let obj = {
-  name: '13',
-  age: 10,
-  obj1: {
-    address : 'china'
-  }
-}
+// let obj = {
+//   name: '13',
+//   age: 10,
+//   obj1: {
+//     address : 'china'
+//   }
+// }
+
 
 let newobj = deepCopy(obj)
 

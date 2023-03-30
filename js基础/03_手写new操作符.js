@@ -14,7 +14,6 @@ function hynew () {
   return flag? result : newobj
 }
 
-
 //实验
 function foo(name,age) {
   this.name = name

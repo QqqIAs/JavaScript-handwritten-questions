@@ -36,9 +36,9 @@ class homeMadeEventBus {
 
 //测试
 const bus = new homeMadeEventBus()
-const studio = function() {
-  console.log('123')
+const studio = function(a) {
+  console.log(a)
 }
 bus.on('click', studio)
 
-bus.emit('click', studio)
+bus.emit('click', 'dada')
