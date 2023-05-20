@@ -21,9 +21,31 @@ function deepCopy(obj) {
 // }
 
 
+// let newobj = deepCopy(obj)
+
+// newobj.obj1.address = 'us'
+
+// console.log(newobj.obj1.address)
+// console.log(obj.obj1.address)
+
+let obj = {
+  name: '13',
+  age: 10,
+  obj1: {
+    address : 'china',
+    obj: {
+      name: 'qqq'
+    }
+  },
+}
+
+
+
+// newobj.obj1.address = 'us'
+
+// console.log(newobj.obj1.address)
+// console.log(obj.obj1.address)
 let newobj = deepCopy(obj)
-
-newobj.obj1.address = 'us'
-
-console.log(newobj.obj1.address)
-console.log(obj.obj1.address)
+newobj.obj1.obj.name = 'adc'
+console.log(obj.obj1.obj.name)
+console.log(newobj.obj1.obj.name)

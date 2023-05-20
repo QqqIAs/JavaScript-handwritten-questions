@@ -1,7 +1,7 @@
 let arr = [1, [2, [3, 4, 5]]]
 
 const faltten = function(arr, depth) {
-  if(!Array.isArray(arr) || depth <= 0) return arr
+  if(!Array.isArray(arr) || depth <= 0) return 
   let res = []
   for(let i of arr) {
     if(Array.isArray(i)) {

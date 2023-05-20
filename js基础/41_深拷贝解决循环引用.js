@@ -16,11 +16,11 @@ let obj = {
   name: '13',
   age: 10,
   obj1: {
-    address : 'china'
+    address : 'china',
+    obj: {
+      name: 'qqq'
+    }
   },
-  obj: {
-    name:'coder'
-  }
 }
 
 
@@ -30,6 +30,6 @@ let obj = {
 // console.log(newobj.obj1.address)
 // console.log(obj.obj1.address)
 let newobj = deepCopy(obj)
-newobj.obj.name = 'adc'
-console.log(newobj.obj.name)
-console.log(obj.obj.name)
+newobj.obj1.obj.name = 'adc'
+console.log(obj.obj1.obj.name)
+console.log(newobj.obj1.obj.name)
