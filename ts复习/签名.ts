@@ -6,7 +6,7 @@
  * @FilePath: \手写\手写题\ts复习\签名.ts
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
-//调用签名
+//调用签名 作用是为了描述带有属性的函数
 interface IFn {
   name: string;
   (num1: number, num2: number): void;
@@ -32,3 +32,5 @@ class Person {
 function factory(ctor: myPerson) {
   return new ctor("coder");
 }
+
+export {}
