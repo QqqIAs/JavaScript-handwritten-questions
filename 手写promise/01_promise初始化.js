@@ -2,7 +2,7 @@
 //PromiseResult 初始化promise结果
 //onFulfilledCallbacks 初始化fulfilled函数
 //onRejectedCallbacks 初始化Rejected函数
-//MACBOOK测试
+//MACBOOK测试new
 class MyPromise {
   static PENDING = 'pending'
   static FULFILLED = 'fulfilled'
